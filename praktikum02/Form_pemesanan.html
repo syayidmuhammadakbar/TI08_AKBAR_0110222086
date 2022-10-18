@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan_mach</title>
+    <style>
+
+    </style>
+</head>
+<body style="background-color: #E8DFCA;">
+    <ul style="list-style-type: none; margin: 0;padding: 0;overflow: hidden;background-color: #333;">
+        <li style="float: left;"><a href="#Home" style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;">Home</a></li>
+        <li style="float: left;"><a href="#Generate link" style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;">Generate link</a></li>
+        <li style="float: left;"><a href="#Transaction history" style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;">Transaction history</a></li>
+        <li style="float: left;"><a href="#Policy" style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;">Policy</a></li>
+        <li style="float: right;"><a href="#Logout" style="display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;">Logout</a></li>
+    </ul>
+    <img src="mac-removebg-preview.png" alt="" style="float: left;width: 25%;padding-left: 30px;">
+    <form>
+        <table style="padding-top: 30px; padding-left: 30px; font-size: 20px;">
+            <tr>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for="name">Title hare:</label>
+                </td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <input type="text" name="name" id="name" placeholder="Machbook&euro;800">
+                </td>
+            </tr>
+            <tr>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for="description">Description:</label>
+                </td>
+                <td style="height: 50px; vertical-align: bottom;">
+                    <textarea name="desc" id="description" cols="20" rows="7">
+                        Years:2009 
+                        Model 
+                        Condition:Mint
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for="acount">Acount Number:</label>
+                </td>
+                <td style="height: 50px; vertical-align: bottom;">
+                    <input type="number" name="acount" id="acount" placeholder="123-456-789-0">
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 50px; vertical-align: bottom;">
+                    <label for="bank">BANK:</label>
+                </td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <input type="text" list="bank" name="bank" placeholder="HSBC">
+                    <datalist id="bank">
+                        <option value="BCA">
+                        <option value="BRI"></option>
+                        <option value="MANDIRI">
+                        <option value="JENIUS">
+                        <option value="CHINA BANK">
+                        <OPtion value="HSBC"></OPtion>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 50px; vertical-align: bottom;">
+                    <label for="holder">Acount Holder:</label>
+                </td>
+                <td style="height: 50px; vertical-align: bottom;">
+                    <input type="text" name="holder" id="holder" placeholder="name hare...">
+                </td>
+            </tr>
+            <tr>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for="transaction">Transaction</label>
+                </td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <select name="transaction" id="transaction">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr style="color: green;">
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for=""></label>
+                </td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <input type="checkbox" placeholder="1234567890"> send to mobile phone
+                </td>
+            </tr>
+            <tr style="color: green;">
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for=""></label>
+                </td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <input type="checkbox" placeholder="aku@gmail.com">send to email
+                </td>
+            </tr>
+            <tr>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for="mobile">Send to Mobile phone:</label>
+                </td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <input type="number" name="mobile" id="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <label for="email">Send to email:</label>
+                </td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td  style="height: 50px; vertical-align: bottom;"></td>
+                <td  style="height: 50px; vertical-align: bottom;">
+                    <input type="submit" value="Ganarete nabr link" style="background-color: green;color: white; cursor: pointer;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
