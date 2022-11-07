@@ -1,0 +1,97 @@
+
+body{
+    background-color: antiquewhite;
+    margin: 0 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    text-align: center;
+    background-color: wheat;
+    padding-bottom: 50px;
+}
+h1{
+    color: #0000ff;
+}
+.box{
+    border: 1px dotted ;
+    width: auto;
+    background-color: yellow;
+}
+
+ul li{
+    display: inline-block;
+}
+.link{
+    text-align: center;
+}
+
+.gambar{
+    display: flex;
+    padding-left: 35%;
+}
+
+.gambar img{
+    width: 20%;
+    text-align: center;
+    padding-left: 1%;
+}
+
+.isi{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#B{
+    font-weight: 400;
+    color: #0000ff;
+    font-size: 50px;
+}
+
+#profil{
+    float: left;
+    width: 500px;
+    margin: 30px;
+    background: white;
+    text-align: justify;
+}
+
+#profil h3{
+    text-align: center;
+    text-shadow: .30em .30em silver;
+}
+
+#profil ul{
+    margin-right: 30px;
+}
+
+#beternak{
+    text-align: justify;
+}
+
+.koleksi{
+    margin-top: 3%;
+}
+
+.koleksi img{
+    width: 23%;
+    margin-left: 1%;
+}
+
+.promo {
+    border: 1px solid;
+    margin-top: 3%;
+    text-align: center;
+    
+    
+}
+
+.olshop{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.olshop img{
+    width: 40%;
+    margin-left: 150%;
+}
