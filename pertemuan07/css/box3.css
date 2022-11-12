@@ -1,0 +1,47 @@
+.bg-yellow{
+    width: 20%;
+    height: 70px;
+    background-color: #f4eb49;
+    margin: 10px;
+}
+
+.bg-orange{
+    width: 90%;
+    height: 70px;
+    background-color: #f76424;
+    margin: 10px;
+}
+.container{
+    display: flex;
+}
+.bg-green{
+    height: 700px;
+    width: 18%;
+    background-color: #aedd94;
+    margin: 10px;
+}
+
+.bg-silver{
+    height: 700px;
+    width: 60%;
+    margin: 10px;
+    background-color: silver;
+}
+
+.bg-ocean{
+    height: 700px;
+    width: 18%;
+    margin: 10px;
+    background-color: rgb(85, 175, 226);
+}
+
+.box{
+    display: flex;
+}
+
+.bg-blue{
+    width: 99%;
+    height: 70px;
+    margin: 10px;
+    background-color: rgb(46, 124, 212);
+}
