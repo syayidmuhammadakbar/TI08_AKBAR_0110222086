@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+.nav{
+    width: 15%;
+    height: 600px;
+    background-color: palevioletred;
+}
+
+.box1{
+    width: 85%;
+    height: 100px;
+    background-color: khaki;
+    float: right;
+    margin-top: -600px;
+}
+
+.box2{
+    height: 500px;
+    width: 15%;
+    background-color: blue;
+    float: right;
+    margin-top: -500px;
+}
+
+.box3{
+    margin-top: -500px;
+    margin-left: 15%;
+    width: 70%;
+    height: 500px;
+    float: left;
+    background-color: whitesmoke;
+
+}
+
+.box4{
+    background-color: khaki;
+    width: 85%;
+    height: 100px;
+    float: right;
+    margin: top -100px; ;
+}
